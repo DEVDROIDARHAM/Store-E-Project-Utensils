@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shine Utensils - Compare Products</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><i class="fas fa-utensils"></i> Shine Utensils</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="specifications.html">Specifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="discounts.html">Discounts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="comparison.html">Compare</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- PAGE HEADER -->
+<section class="page-header">
+    <div class="container">
+        <h1>Compare Products</h1>
+        <p>Side by side comparison to help you choose the right product</p>
+    </div>
+</section>
+
+<!-- COMPARISON TABS -->
+<section style="background: var(--bg);">
+    <div class="container">
+
+        <!-- TAB BUTTONS -->
+        <ul class="nav nav-tabs comp-tabs mb-4">
+            <li class="nav-item">
+                <a class="nav-link active" data-bs-toggle="tab" href="#pressure">
+                    <i class="fas fa-fire"></i> Pressure Cookers
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#knives">
+                    <i class="fas fa-utensils"></i> Knife Types
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#sets">
+                    <i class="fas fa-box-open"></i> Cookware Sets
+                </a>
+            </li>
+        </ul>
+
+        <!-- TAB CONTENT -->
+        <div class="tab-content">
+
+            <!-- PRESSURE COOKERS -->
+            <div id="pressure" class="tab-pane fade show active">
+                <p class="comp-desc">Comparing our 4 pressure cooker models by size, material and price.</p>
+                <div class="table-responsive">
+                    <table class="comp-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Aluminum 3L</th>
+                                <th>Steel 5L</th>
+                                <th>Steel 7L</th>
+                                <th>Steel 10L</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="lbl">Price</td><td>PKR 1,800</td><td>PKR 3,500</td><td>PKR 4,200</td><td>PKR 5,500</td></tr>
+                            <tr><td class="lbl">Capacity</td><td>3 Liters</td><td>5 Liters</td><td>7 Liters</td><td>10 Liters</td></tr>
+                            <tr><td class="lbl">Material</td><td>Aluminum</td><td>SS 304</td><td>SS 304</td><td>SS 304</td></tr>
+                            <tr><td class="lbl">Weight</td><td>700g</td><td>1200g</td><td>1500g</td><td>2000g</td></tr>
+                            <tr><td class="lbl">Best For</td><td>1-2 persons</td><td>2-3 persons</td><td>4-5 persons</td><td>Large families</td></tr>
+                            <tr><td class="lbl">Warranty</td><td>2 Years</td><td>5 Years</td><td>5 Years</td><td>5 Years</td></tr>
+                            <tr><td class="lbl">Quality</td><td>Standard</td><td>Premium</td><td>Premium</td><td>Premium</td></tr>
+                            <tr><td class="lbl">Rating</td><td>⭐ 4.2</td><td>⭐ 4.7</td><td>⭐ 4.6</td><td>⭐ 4.5</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="comp-verdict">
+                    <strong>Our Recommendation:</strong> The 5L Stainless Steel is the best value — perfect for an average family with a 5 year warranty at a reasonable price.
+                </div>
+            </div>
+
+            <!-- KNIFE TYPES -->
+            <div id="knives" class="tab-pane fade">
+                <p class="comp-desc">Comparing our top 4 knives by material, use and price.</p>
+                <div class="table-responsive">
+                    <table class="comp-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Chef Knife 8"</th>
+                                <th>Damascus Knife</th>
+                                <th>Santoku Knife</th>
+                                <th>Butcher Knife</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="lbl">Price</td><td>PKR 1,200</td><td>PKR 2,500</td><td>PKR 1,800</td><td>PKR 1,500</td></tr>
+                            <tr><td class="lbl">Material</td><td>High-Carbon SS</td><td>Damascus Steel</td><td>High-Carbon SS</td><td>High-Carbon SS</td></tr>
+                            <tr><td class="lbl">Length</td><td>8 inches</td><td>8 inches</td><td>7 inches</td><td>10 inches</td></tr>
+                            <tr><td class="lbl">Weight</td><td>200g</td><td>220g</td><td>210g</td><td>250g</td></tr>
+                            <tr><td class="lbl">Best For</td><td>All-purpose</td><td>Professional use</td><td>Precision cuts</td><td>Meat cutting</td></tr>
+                            <tr><td class="lbl">Warranty</td><td>Lifetime</td><td>Lifetime</td><td>Lifetime</td><td>Lifetime</td></tr>
+                            <tr><td class="lbl">Quality</td><td>Premium</td><td>Premium</td><td>Premium</td><td>Premium</td></tr>
+                            <tr><td class="lbl">Rating</td><td>⭐ 4.9</td><td>⭐ 4.9</td><td>⭐ 4.7</td><td>⭐ 4.7</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="comp-verdict">
+                    <strong>Our Recommendation:</strong> The Chef Knife 8" is the best all-rounder — highly rated, lifetime warranty and the most affordable premium option.
+                </div>
+            </div>
+
+            <!-- COOKWARE SETS -->
+            <div id="sets" class="tab-pane fade">
+                <p class="comp-desc">Comparing our cookware sets by pieces, value and warranty.</p>
+                <div class="table-responsive">
+                    <table class="comp-table">
+                        <thead>
+                            <tr>
+                                <th>Feature</th>
+                                <th>Starter Pack</th>
+                                <th>6-Piece Set</th>
+                                <th>8-Piece Deluxe</th>
+                                <th>10-Piece Set</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td class="lbl">Price</td><td>PKR 3,500</td><td>PKR 4,000</td><td>PKR 5,000</td><td>PKR 6,500</td></tr>
+                            <tr><td class="lbl">Pieces</td><td>12 items</td><td>6 pieces</td><td>8 pieces</td><td>10 pieces</td></tr>
+                            <tr><td class="lbl">Material</td><td>Mixed</td><td>Stainless Steel</td><td>Stainless Steel</td><td>Non-stick</td></tr>
+                            <tr><td class="lbl">Weight</td><td>1800g</td><td>2000g</td><td>2500g</td><td>3500g</td></tr>
+                            <tr><td class="lbl">Best For</td><td>Beginners</td><td>Small families</td><td>Premium cooking</td><td>Professional</td></tr>
+                            <tr><td class="lbl">Warranty</td><td>2 Years</td><td>3 Years</td><td>3 Years</td><td>5 Years</td></tr>
+                            <tr><td class="lbl">Quality</td><td>Standard</td><td>Premium</td><td>Premium</td><td>Premium</td></tr>
+                            <tr><td class="lbl">Rating</td><td>⭐ 4.4</td><td>⭐ 4.5</td><td>⭐ 4.6</td><td>⭐ 4.7</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="comp-verdict">
+                    <strong>Our Recommendation:</strong> The 6-Piece Set is the sweet spot — premium stainless steel, good warranty and great value for a regular household.
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <h5><i class="fas fa-utensils"></i> Shine Utensils</h5>
+                <p>Premium kitchen solutions for every home. Serving customers since 2010.</p>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h5>Quick Links</h5>
+                <ul class="footer-links">
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="discounts.html">Current Offers</a></li>
+                    <li><a href="comparison.html">Compare Products</a></li>
+                    <li><a href="feedback.html">Give Feedback</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h5>Company</h5>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="specifications.html">Specifications</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <h5>Follow Us</h5>
+                <p>Stay connected with us on social media.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2010-2026 Shine Utensils. All rights reserved.</p>
+            <p>Designed & Developed for eProject | Sem-1</p>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
